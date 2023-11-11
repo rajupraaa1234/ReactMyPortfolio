@@ -1,0 +1,56 @@
+#coding-profiles {
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.coding-profiles-text {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.coding-profiles-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.coding-profiles {
+  background: rgb(149, 155, 164);
+  position: relative;
+  width: 280px;
+  border-radius: 10px !important;
+  padding: 10px 10px;
+  display: flex;
+  height: 240px;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease;
+  margin: 5px;
+}
+
+.coding-profiles:hover {
+  transform: scale(1.06);
+  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 20%) !important;
+  /* transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s; */
+  background: rgb(75, 159, 66);
+  transition: 2s;
+}
+
+.coding-profiles-name {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.coding-profiles-desc {
+  font-size: 13px;
+  color: #080a0a;
+  font-weight: 600;
+}

@@ -1,0 +1,25 @@
+/* DownloadButton.css */
+.resume-button-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* Hover background color */
+}
+  
