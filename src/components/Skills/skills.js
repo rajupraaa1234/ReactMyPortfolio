@@ -7,7 +7,7 @@ import otherIcon from "../../assets/other.png";
 const Skills = () => {
   return (
     <section id="skills">
-      <span className="skillTitle">What I Do?</span>
+      <span className="skillTitle">Skill</span>
       <span className="skillDesc">
         I am having 3 YoE in
         <span className="introName"> Mobile Development</span>
