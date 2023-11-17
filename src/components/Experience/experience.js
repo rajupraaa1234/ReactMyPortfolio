@@ -44,6 +44,10 @@ const Experience = () => {
         <p className="vertical-timeline-element-other">{job.desc}</p>
         <p className="vertical-timeline-element-other">{job.contri}</p>
         <p className="vertical-timeline-element-other">{job.skills}</p>
+        {job.certificate && <a
+          href="https://drive.google.com/file/d/1hhPUTFAp8i0h_cNTyCjLmkjZutgUILhN/view?usp=sharing">
+          <h6 class="date">View Certificate</h6>
+        </a>}
       </VerticalTimelineElement>
     ));
   };
@@ -71,14 +75,17 @@ const Experience = () => {
 
   return (
     <section id="experience">
-      <h2 className="worksTitle">Work Experience & Education</h2>
+      <h2 className="worksTitle">Work Experience</h2>
       <div className="experience-container">
         <VerticalTimeline>
           {renderJobExperience()}
-          {/* {renderEducation()} */}
         </VerticalTimeline>
-
-
+      </div>
+      <h2 className="worksTitle">Education</h2>
+      <div className="experience-container">
+        <VerticalTimeline>
+          {renderEducation()}
+        </VerticalTimeline>
       </div>
     </section>
   );

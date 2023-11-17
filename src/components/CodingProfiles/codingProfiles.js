@@ -4,13 +4,14 @@ import { codingProfilesData } from '../../data/codingProfiles';
 import leetcode from "../../assets/leetcode-logo.png";
 import gfg from "../../assets/gfg-logo.png";
 import hackerrank from "../../assets/hackerrank-logo.png";
-
+import interviewbit from "../../assets/interviewbit.png"
 const CodingProfiles = () => {
 
   const platformImages = {
     leetcode,
     gfg,
-    hackerrank
+    hackerrank,
+    interviewbit
   };
 
   return (
@@ -27,10 +28,10 @@ const CodingProfiles = () => {
               data-aos="zoom-in-up"
               data-aos-duration="1500"
             >
-              <img 
-              src={platformImages[profile.platform_image]} 
-              width={100}
-              height={100}
+              <img
+                src={platformImages[profile.platform_image]}
+                width={100}
+                height={100}
               />
               <h4 className="coding-profiles-name">
                 {profile.platform_name}
