@@ -9,31 +9,112 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What I Do?</span>
       <span className="skillDesc">
-        I am having 2 YoE in
-        <span className="introName"> Java Backend Development</span>
-        <p>I develop a scalable system and write human understable code.</p>
+        I am having 3 YoE in
+        <span className="introName"> Mobile Development</span>
+        <p>I develop a responsive mobile application and write human understable code.</p>
       </span>
-      <div className="skillBars">
-        <div className="skillBar">
-          <img
-            src={javaIcon}
-            alt="Java Backend Development"
-            className="skillBarImg"
-          />
-          <div className="skillBarText">
-            <h2>Java Backend Development</h2>
-            <p>
-              Java, Spring Boot, Microservices, Apache Kafka, RabbitMQ, Redis, Reactive Spring, Spring Cloud, JUnit & Mockito
-            </p>
+      <div class="container mt-5">
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skill">
+              <i class="fab fa-react"></i>
+              <p>Data Structure & Algorithm</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="skill">
+              <i class="fab fa-react"></i>
+              <p>Java</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="skill">
+              <i class="fab fa-react"></i>
+              <p>JavaScript/TypeScript</p>
+            </div>
           </div>
         </div>
-        <div className="skillBar">
-          <img src={otherIcon} alt="Other" className="skillBarImg" />
-          <div className="skillBarText">
-            <h2>Other</h2>
-            <p>AWS, Apache Kafka, SQL, Camunda, Technical Writing</p>
+
+
+        <div class="skillCard">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>C/C++</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Object Oriented Programming</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Android</p>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="skillCard">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React Native</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>SQL</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Problem Solving</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skillCard">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Mobile Development</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Django</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>FireBase/Cloud messaging</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

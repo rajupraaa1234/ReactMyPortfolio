@@ -1,105 +1,36 @@
 import React from "react";
 import "./intro.css";
 import btnImage from "../../assets/hireme.png";
-import imgSanjeet from "../../assets/sanjeet_pic.jpg";
+import newPic from "../../assets/newPic.jpeg";
 
 const Intro = () => {
   return (
-
-    // <section id="intro">
-    //   <div class="introContent">
-    //     <div class="introLeft">
-    //       <span class="hello">Hello,</span>
-    //       <span class="introText">
-    //         I'm <span class="introName">Sanjeet Kumar</span>
-    //         <br />
-    //         Software Engineer
-    //       </span>
-    //       <p class="introPara">
-    //         Having in-depth knowledge of <span class="introName">Java</span> and <span class="introName">Spring Boot</span> with
-    //         <br /> more than <span class="introName">2 Years</span> of experience in the software industry,<br /> I currently
-    //         serve as a <span class="introName">Backend Developer</span>. <br /> Beyond my professional endeavors, I am deeply
-    //         engrossed in the world of <br /> <span class="introName">competitive programming</span>. I've tackled and resolved
-    //         over <span class="introName">2500 problems</span>, <br /> actively engaging with new challenges as they arise.
-    //         bjhvghvghvghghvghghcgfcgcgcgfcgcfgcfgccgcgcgcccfcfgcfgcgcgcfgcfgcfgcgcgfcgffgfcfcffcfgcgfcfcgffgcgcgcgcgfcgcgcff
-    //       </p>
-    //       <a href={`mailto:sanjeet677088@gmail.com`}>
-    //         <button class="btn">
-    //           <img src={btnImage} alt="Hire Me" class="btnImg" />
-    //           Hire Me
-    //         </button>
-    //       </a>
-    //     </div>
-    //     <div class="introRight">
-    //       <img src={imgSanjeet} alt="Profile" class="bgImg" />
-    //     </div>
-    //   </div>
-    //   </section>
-
-    // <section id="intro">
-    //   <div class="introContent">
-    //     <div class="introLeft">
-    //       <span class="hello">Hello,</span>
-    //       <span class="introText">
-    //         I'm <span class="introName">Sanjeet Kumar</span>
-    //         <br />
-    //         Software Engineer
-    //       </span>
-    //       <p class="introPara">
-    //         Having in-depth knowledge of <span class="introName">Java</span> and <span class="introName">Spring Boot</span> with
-    //         <br /> more than <span class="introName">2 Years</span> of experience in the software industry,<br /> I currently
-    //         serve as a <span class="introName">Backend Developer</span>. <br /> Beyond my professional endeavors, I am deeply
-    //         engrossed in the world of <br /> <span class="introName">competitive programming</span>. I've tackled and resolved
-    //         over <span class="introName">2500 problems</span>, <br /> actively engaging with new challenges as they arise.
-    //         dnckjcdsbcjdhsbchjdsbhcbdshjcbhjdbchjdbhjchjdsbcdjcdjsbchjdsbcjbdshjchdjsbcjbdsjhbcjdsbjcdsjbchjdscjbdsjcbhdjsbchjdbshjcbdshjbcjhdsbcjhbdjcbjdsbchjdbjcbdshjbchjdbchbdshbchdjbchjdsbjchbdshjcbdhjsbchd
-    //       </p>
-    //       <a href={`mailto:sanjeet677088@gmail.com`}>
-    //         <button class="btn">
-    //           <img src={btnImage} alt="Hire Me" class="btnImg" />
-    //           Hire Me
-    //         </button>
-    //       </a>
-    //     </div>
-    //     <div class="introRight">
-    //       <img src={imgSanjeet} alt="Profile" class="bgImg" />
-    //     </div>
-    //   </div>
-    // </section>
-
     <section id="intro">
-      <div className="introContent">
-        <span className="hello">Hello,</span>
-        <span className="introText">
-          I'm <span className="introName">Sanjeet Kumar</span>
-          <br />
-          Software Engineer
-        </span>
-        <p className="introPara">
-          Having in-depth knowledge of <span className="introName">Java</span>{" "}
-          and <span className="introName">Spring Boot</span> with <br /> more 
-          than <span className="introName">2 Years</span> of experience of  in the
-          software industry,<br/> I currently serve as a <span className="introName">Backend Developer</span>.
-          <br/>
-          Beyond my professional endeavors, I am deeply engrossed in the world of <br/> <span className="introName">competitive programming</span>. 
-          I've tackled and resolved over <span className="introName">2500 problems</span>, 
-          <br/>
-          actively engaging with new challenges as they arise.
-          {/* My dedication extends to participation in over 100 coding contests on platforms like LeetCode, where I have consistently demonstrated my proficiency with a LeetCode rating exceeding 1750 (with a peak rating of 1921). On a global scale, I am placed within the top 1500 competitors. */}
-        </p>
-        <a href={`mailto:sanjeet677088@gmail.com`}>
-          <button className="btn">
-            <img src={btnImage} alt="Hire Me" className="btnImg" />
-            Hire Me
-          </button>
-        </a>
-        {/* <a>
-          <button className="resume_download_button">
-            <img src={btnImage} alt="Resume" className="resume_download" />
-            Download Resume
-          </button>
-        </a> */}
+      <div class="container">
+        <div class="row">
+          <div class="intro">
+            <span class="hello">Hello,</span><br />
+            <span class="introText">
+              I'm <span class="introName">Raju Kumar</span>
+              <br />
+              Software Engineer
+            </span>
+            <br /><br />
+            <p>I am Passionate coder with a strong commitment to optimizing solutions, adept at competitive problem-solving, and continuously seeking opportunities to enhance technical expertise .</p>
+            <p>Highly enthusiastic in hands on over Mobile Development , Android , React native , Flutter . I Love coding & Problem solving . My aim to write code which not only machine even human can understand . Delivering results by taking ownership and responsibilities, Growing professional always increasing the learning curve .</p>
+            <p>Implement is my cup of tea and learning new things is my greatest curiousity. I can't sleep until I solve all the bugs. I have always made an impact in projects with my fast implementation process and good skills. I can work on different technologies, database and programming languages. My basics are strong and I believe in hardwork combined with the flavour of smart work. Most important thing is I love this job and always push my limits to become more better .</p>
+            <a href={`mailto:rajupraaa1234@gmail.com`}>
+              <button class="btn">
+                <img src={btnImage} alt="Hire Me" class="btnImg" />
+                Hire Me
+              </button>
+            </a>
+          </div>
+          <div class="user-image">
+            <div className="introImage"><img src={newPic} alt="Profile" className="bgImg" width={'40%'} height={'60%'} /></div>
+          </div>
+        </div>
       </div>
-      <div className="introImage"><img src={imgSanjeet} alt="Profile" className="bgImg" /></div>
     </section>
   );
 };
