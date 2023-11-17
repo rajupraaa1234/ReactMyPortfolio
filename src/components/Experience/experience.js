@@ -7,14 +7,15 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import creditSaisonIndia from "../../assets/credit-saison-logo.png";
-import mygate from "../../assets/mygate-logo.png";
 import moneytap from "../../assets/moneytap-logo.png";
+import ei from "../../assets/ei-logo.png"
 import appventurez from "../../assets/appventurez-logo.svg";
+import LLoyds from "../../assets/LLoyds.jpeg"
 
 const Experience = () => {
   const formatedCompanyLogos = {
-    creditSaisonIndia,
-    mygate,
+    LLoyds,
+    ei,
     moneytap,
     appventurez
   };
@@ -40,6 +41,8 @@ const Experience = () => {
       >
         <h3 className="vertical-timeline-element-title">{job.jobTitle}</h3>
         <h4 className="vertical-timeline-element-subtitle">{job.company}</h4>
+        <p className="vertical-timeline-element-other">{job.desc}</p>
+        <p className="vertical-timeline-element-other">{job.contri}</p>
         <p className="vertical-timeline-element-other">{job.skills}</p>
       </VerticalTimelineElement>
     ));
@@ -72,8 +75,10 @@ const Experience = () => {
       <div className="experience-container">
         <VerticalTimeline>
           {renderJobExperience()}
-          {renderEducation()}
+          {/* {renderEducation()} */}
         </VerticalTimeline>
+
+
       </div>
     </section>
   );
