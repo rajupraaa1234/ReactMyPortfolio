@@ -54,3 +54,12 @@
   color: #080a0a;
   font-weight: 600;
 }
+
+.instructionStyle {
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   margin-top: 20px;
+
+}

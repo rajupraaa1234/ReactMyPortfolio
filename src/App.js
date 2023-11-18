@@ -7,6 +7,7 @@ import Intro from "./components/Intro/intro";
 import Navbar from "./components/Navbar/navbar";
 import Skills from "./components/Skills/skills";
 import Resume from "./components/Resume/resume";
+import Education from "./components/Education/education";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Intro />
       <Skills />
       <Experience />
+      <Education/>
       <CodingProfiles />
       <Achievements />
       <ContactMe />

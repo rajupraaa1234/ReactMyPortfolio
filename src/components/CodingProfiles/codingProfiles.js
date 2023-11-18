@@ -15,9 +15,11 @@ const CodingProfiles = () => {
   };
 
   return (
-    <section id="coding-profiles">
+    <section id="codingProfile">
       <h2 className="coding-profiles-text">Coding Profiles</h2>
-
+      <div className='instructionStyle'>
+         <p>Using Data structure and algorithm i have solved around 3000+ problems which helped me to developed my problem solving skill and algorithms</p>
+      </div>
       <div className="coding-profiles-row">
         {codingProfilesData &&
           codingProfilesData.map((profile) => (

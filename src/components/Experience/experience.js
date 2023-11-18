@@ -6,7 +6,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import creditSaisonIndia from "../../assets/credit-saison-logo.png";
 import moneytap from "../../assets/moneytap-logo.png";
 import ei from "../../assets/ei-logo.png"
 import appventurez from "../../assets/appventurez-logo.svg";
@@ -81,12 +80,12 @@ const Experience = () => {
           {renderJobExperience()}
         </VerticalTimeline>
       </div>
-      <h2 className="worksTitle">Education</h2>
+      {/* <h2 className="worksTitle">Education</h2>
       <div className="experience-container">
         <VerticalTimeline>
           {renderEducation()}
         </VerticalTimeline>
-      </div>
+      </div> */}
     </section>
   );
 };

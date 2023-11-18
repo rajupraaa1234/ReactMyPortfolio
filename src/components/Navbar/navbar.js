@@ -8,6 +8,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   function contactMeOnClickFunction() {
+    console.log(`contactMeOnClickFunction `)
     return () => {
       document.getElementById("contact").scrollIntoView({
         behavior: "smooth",
@@ -54,10 +55,21 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="education"
+          to="codingProfile"
           spy={true}
           smooth={true}
           offset={-80}
+          duration={50}
+          className="desktopMenuListItem"
+        >
+          Coding Profile
+        </Link>
+        <Link
+          activeClass="active"
+          to="education"
+          spy={true}
+          smooth={true}
+          offset={-90}
           duration={50}
           className="desktopMenuListItem"
         >
@@ -138,6 +150,17 @@ const Navbar = () => {
           onClick={() => setShowMenu(false)}
         >
           Education
+        </Link>
+        <Link
+          activeClass="active"
+          to="codingProfile"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={50}
+          className="desktopMenuListItem"
+        >
+          Coding Profile
         </Link>
         <Link
           activeClass="active"
