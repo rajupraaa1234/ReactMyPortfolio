@@ -144,9 +144,8 @@ const ContactMe = (e) => {
 
               <div className="hire-btn-container">
                 <button
-                  className={`hire-btn ${disableSubmit && "disabled-btn"} ${
-                    isFormSubmitting && "form-submit"
-                  }`}
+                  className={`hire-btn ${disableSubmit && "disabled-btn"} ${isFormSubmitting && "form-submit"
+                    }`}
                   type="submit"
                   disabled={isFormSubmitting || disableSubmit}
                 >
