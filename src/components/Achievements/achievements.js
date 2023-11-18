@@ -19,9 +19,16 @@ const Achievements = () => {
               <h4 className="achievement-name">
                 {achievement.achievement_name}
               </h4>
+              <p class="platformStyle">
+                {achievement.platform}
+              </p>
               <p className="achievement-desc">
                 {achievement.achievement_description}
               </p>
+              {achievement.certificate && <a
+                href={achievement.link}>
+                <p className="certificateLink">View Award</p>
+              </a>}
             </div>
           ))}
       </div>

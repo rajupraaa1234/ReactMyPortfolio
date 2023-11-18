@@ -2,6 +2,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 1rem;
+
 }
 
 .achievement-text {
@@ -9,11 +10,24 @@
   font-size: 3rem;
 }
 
+.platformStyle {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+
+.certificateLink {
+  font-size: small;
+  font-weight: bold;
+}
+
 .achievement-row {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
   padding-top: 2rem;
 }
 
@@ -22,16 +36,19 @@
   position: relative;
   width: 280px;
   border-radius: 10px !important;
-  padding: 10px 10px;
+  justify-content: center;
+  padding: 5px 10px;
   display: flex;
-  height: 240px;
+  height: 310px;
+  /* min-height: 250px; */
   overflow: hidden;
   align-items: center;
   flex-direction: column;
   cursor: pointer;
   text-align: center;
   transition: all 0.5s ease;
-  margin: 5px;
+  margin: 15px;
+
 }
 
 .my-achievement:hover {
