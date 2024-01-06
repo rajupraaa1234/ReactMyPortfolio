@@ -105,7 +105,6 @@ const Skills = () => {
                 <p>Django</p>
               </div>
             </div>
-
             <div class="col-md-4">
               <div class="skill">
                 <i class="fab fa-react"></i>
@@ -114,6 +113,24 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
+        <div class="skillCard">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>SpringBoot</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Micro Services</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </section>
