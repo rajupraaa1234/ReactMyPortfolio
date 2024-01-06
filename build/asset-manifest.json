@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cff70ed9.css",
-    "main.js": "/portfolio/static/js/main.3b7d733c.js",
-    "static/media/rajuResume.pdf": "/portfolio/static/media/rajuResume.e35f31c8ce1e002d06d9.pdf",
-    "static/media/LLoyds.jpeg": "/portfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
-    "static/media/newPic.jpeg": "/portfolio/static/media/newPic.e326a9792c4daba9f9d1.jpeg",
-    "static/media/react.png": "/portfolio/static/media/react.35639ed930462bfcd544.png",
-    "static/media/java.png": "/portfolio/static/media/java.aaaa73f637215f4d6333.png",
-    "static/media/other.png": "/portfolio/static/media/other.9037c951ec79db4e97c3.png",
-    "static/media/hackerrank-logo.png": "/portfolio/static/media/hackerrank-logo.c5bede0098e3bf3a222e.png",
-    "static/media/interviewbit.png": "/portfolio/static/media/interviewbit.12a6f8a62644ed49f60e.png",
-    "static/media/moneytap-logo.png": "/portfolio/static/media/moneytap-logo.f8eabdafb23d9278ac1b.png",
-    "static/media/leetcode-logo.png": "/portfolio/static/media/leetcode-logo.ee065bea9e6384d0a8bb.png",
-    "static/media/appventurez-logo.svg": "/portfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
-    "index.html": "/portfolio/index.html",
-    "main.cff70ed9.css.map": "/portfolio/static/css/main.cff70ed9.css.map",
-    "main.3b7d733c.js.map": "/portfolio/static/js/main.3b7d733c.js.map"
+    "main.css": "/ReactMyPortfolio/static/css/main.cff70ed9.css",
+    "main.js": "/ReactMyPortfolio/static/js/main.5b68f04b.js",
+    "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.e35f31c8ce1e002d06d9.pdf",
+    "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
+    "static/media/newPic.jpeg": "/ReactMyPortfolio/static/media/newPic.e326a9792c4daba9f9d1.jpeg",
+    "static/media/react.png": "/ReactMyPortfolio/static/media/react.35639ed930462bfcd544.png",
+    "static/media/java.png": "/ReactMyPortfolio/static/media/java.aaaa73f637215f4d6333.png",
+    "static/media/other.png": "/ReactMyPortfolio/static/media/other.9037c951ec79db4e97c3.png",
+    "static/media/hackerrank-logo.png": "/ReactMyPortfolio/static/media/hackerrank-logo.c5bede0098e3bf3a222e.png",
+    "static/media/interviewbit.png": "/ReactMyPortfolio/static/media/interviewbit.12a6f8a62644ed49f60e.png",
+    "static/media/moneytap-logo.png": "/ReactMyPortfolio/static/media/moneytap-logo.f8eabdafb23d9278ac1b.png",
+    "static/media/leetcode-logo.png": "/ReactMyPortfolio/static/media/leetcode-logo.ee065bea9e6384d0a8bb.png",
+    "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
+    "index.html": "/ReactMyPortfolio/index.html",
+    "main.cff70ed9.css.map": "/ReactMyPortfolio/static/css/main.cff70ed9.css.map",
+    "main.5b68f04b.js.map": "/ReactMyPortfolio/static/js/main.5b68f04b.js.map"
   },
   "entrypoints": [
     "static/css/main.cff70ed9.css",
-    "static/js/main.3b7d733c.js"
+    "static/js/main.5b68f04b.js"
   ]
 }
