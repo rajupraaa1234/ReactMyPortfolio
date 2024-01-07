@@ -34,7 +34,7 @@ export const achievements = [
     platform: `Got second Position in Hackathon (Eucational Initiative'22)`,
     certificate: false,
     achievement_description: <p>
-      Hackathon competition held in my current company at Educational Initiative . In this Hackathon there are total total 17 teams in which i got 2nd position    </p>
+      A hackathon competition was organized in my current company Educational Initiative. There were a total of 17 teams in this hackathon in which I stood second.    </p>
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const achievements = [
     platform: `Runner Up In Ignite`,
     certificate: false,
     achievement_description: <p>
-      This is a Technical fest for MCA only which is organised by NIT Surathkal .
+      It was a Technical fest for MCA only which was organised by NIT Surathkal .
       <br></br>
       <br></br>
       Many colleges participate in this competition like (All NITs and other colleges also) with group
@@ -54,7 +54,7 @@ export const achievements = [
     platform: `Runner Up In Version19e`,
     certificate: false,
     achievement_description: <p>
-      This is a Technical fest for MCA only which is organised by NIT Trichhy.
+      It was a Technical fest for MCA only which was organised by NIT Trichhy.
       <br></br>
       <br></br>
       Many colleges participate in this competition like (All NITs and other colleges also) with group.
