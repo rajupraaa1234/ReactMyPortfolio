@@ -6,7 +6,7 @@ export const experienceData = {
       companyLogo: "LLoyds",
       jobTitle: "Software Engineer",
       skills:
-        "Technology Used: Java, Spring Boot, Microservices, RabbitMQ, Redis, Caffiene cache, Docker, Kubernetes, Node JS, JavaScript",
+        "Technology Used: Android, Java, Kotlin, RxJava, JatPack Compose, MVVM Architecture",
       date: "Nov 2023 - Present",
       certificate : false,
     },
