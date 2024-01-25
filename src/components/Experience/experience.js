@@ -19,16 +19,29 @@ const Experience = () => {
     appventurez
   };
 
+  function getFormatedStringFromDays(date1, date2) {
+    let Difference_In_Time =
+      date2.getTime() - date1.getTime();
+
+    let numberOfDays =
+      Math.round
+        (Difference_In_Time / (1000 * 3600 * 24));
+    var years = Math.floor(numberOfDays / 365);
+    var months = Math.floor(numberOfDays % 365 / 30);
+    var days = Math.floor(numberOfDays % 365 % 30);
+    return years + " Years " + months + " Months " + days + " Days";
+  }
+
   const renderJobExperience = () => {
     const { icon, content, arrowStyle } = experienceStyles;
-
+    console.log(JSON.stringify(experienceData.workExperience))
     return experienceData.workExperience.map((job) => (
       <VerticalTimelineElement
         key={job.id}
         className="vertical-timeline-element-work"
         contentStyle={content}
         contentArrowStyle={arrowStyle}
-        date={job.date}
+        date={job.date + " (" + getFormatedStringFromDays(new Date(job.from), new Date(job.to)) + ")"}
         iconStyle={icon}
         icon={
           <img
