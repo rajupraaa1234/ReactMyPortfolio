@@ -119,13 +119,13 @@ const Skills = () => {
             <div class="col-md-4">
               <div class="skill">
                 <i class="fab fa-react"></i>
-                <p>SpringBoot</p>
+                <p>JetPack Compose</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="skill">
                 <i class="fab fa-react"></i>
-                <p>Micro Services</p>
+                <p>Kotlin</p>
               </div>
             </div>
           </div>
