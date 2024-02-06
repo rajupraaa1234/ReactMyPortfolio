@@ -16,9 +16,11 @@ const Intro = () => {
               Software Engineer
             </span>
             <br /><br />
-            <p>I am Passionate coder with a strong commitment to optimizing solutions, adept at competitive problem-solving, and continuously seeking opportunities to enhance technical expertise .</p>
-            <p>Highly enthusiastic in hands on over Mobile Development (Android , React native , Flutter). I Love coding & Problem solving . My aim to write code which not only machine even human can understand . Delivering results by taking ownership and responsibilities, Growing professional always increasing the learning curve.</p>
-            <p>Implement is my cup of tea and learning new things is my greatest curiousity. I can't sleep until I solve all the bugs. I have always made an impact in projects with my fast implementation process and good skills. I can work on different technologies, database and programming languages. My basics are strong and I believe in hardwork combined with the flavour of smart work. Most important thing is I love this job and always push my limits to become more better.</p>
+            <p>Enthusiastic and results-driven mobile developer with 3 years of hands-on experience in Android, React Native, and Flutter.I specialize in crafting responsive mobile applications and take pride in producing code that is both robust and easily comprehensible.</p>
+            <p>My passion for coding and problem-solving is evident in my commitment to delivering optimal solutions. I thrive on taking ownership and responsibility for projects, consistently ensuring that the end results meet and exceed expectations.</p>
+            <p>As a growth-oriented professional, I embrace challenges as opportunities for learning, perpetually expanding my skill set. I am dedicated to maintaining an upward trajectory on my learning curve, staying abreast of industry trends and emerging technologies.</p>
+            <p>Known for my adept problem-solving skills, I approach coding with a positive mindset and a strong commitment to finding innovative solutions. I continuously seek opportunities to enhance my technical expertise, firmly believing in the power of continuous improvement.</p>
+            <p>I am a passionate coder who not only enjoys the intricacies of development but is also dedicated to delivering optimistic solutions. Open to collaborative projects and always excited about the next challenge that allows me to contribute my skills and expertise.</p>
             <a href={`mailto:rajupraaa1234@gmail.com`}>
               <button class="btn">
                 <img src={btnImage} alt="Hire Me" class="btnImg" />

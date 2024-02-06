@@ -9,9 +9,8 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">Skills</span>
       <span className="skillDesc">
-        I am having 3 YoE in
-        <span className="introName"> Mobile Development</span>
-        <p>I develop a responsive mobile application and write human understable code.</p>
+
+        <p>With 3 YoE in mobile development, I specialize in crafting responsive <span className="introName"> Mobile Applications</span> and producing code that is easily comprehensible to fellow developers and stakeholders alike.</p>
       </span>
       <div class="container mt-5">
 
