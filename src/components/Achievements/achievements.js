@@ -27,7 +27,7 @@ const Achievements = () => {
               </p>
               {achievement.certificate && <a
                 href={achievement.link}>
-                <p className="certificateLink">View Award</p>
+                <p className="certificateLink">{achievement.cer? "View Certificate" : "View Award"} </p>
               </a>}
             </div>
           ))}

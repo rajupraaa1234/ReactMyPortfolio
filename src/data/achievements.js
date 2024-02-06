@@ -4,6 +4,9 @@ export const achievements = [
     achievement_name: "Coding Skill",
     title: "1st Ranker at Conding Ninjas",
     platform: 'Coding Ninjas',
+    certificate: true,
+    cer:true,
+    link: "https://drive.google.com/file/d/158I8Kn7Zx5oqm6MkXRHYXa7B1w-CTD38/view?usp=sharing",
     achievement_description: <p>
       Completed Data Structures and Algorithm with Java certified by Coding Ninjas. 1st Rank Holder in DSA Course by Coding Ninjas.
     </p>
