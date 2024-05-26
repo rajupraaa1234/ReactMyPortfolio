@@ -6,7 +6,7 @@ export const experienceData = {
       companyLogo: "LLoyds",
       jobTitle: "Software Engineer",
       skills:
-        "Technology Used: Android, Java, Kotlin, RxJava, JatPack Compose, MVVM Architecture",
+        "I am actively contributing to the development of banking applications, leveraging my expertise in Android development, JetPack Compose, Kotlin, Coroutines, various Android architectures, unit testing (utilizing Mockk and JUnit), and Dependency Injection. By harnessing these skills, I deliver robust and efficient solutions tailored to the specific needs of banking applications.",
       date: "Nov 2023 - Present",
       from: "12/11/2023",
       to: new Date(),
