@@ -11,10 +11,10 @@ export const profileLinks = [
     link: "https://github.com/rajupraaa1234",
     social_icon: "fa fa-github",
   },
-  {
-    id: 4,
-    name: "WhatsApp",
-    link: "https://wa.me/+917903241183?text=Hi",
-    social_icon: "fa fa-whatsapp",
-  },
+  // {
+  //   id: 4,
+  //   name: "WhatsApp",
+  //   link: "https://wa.me/+917903241183?text=Hi",
+  //   social_icon: "fa fa-whatsapp",
+  // },
 ];
