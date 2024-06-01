@@ -1,7 +1,8 @@
 import React from "react";
+import { isMobile } from 'react-device-detect';
 import "./intro.css";
 import btnImage from "../../assets/hireme.png";
-import newPic from "../../assets/newPic.jpeg";
+import newPic from "../../assets/newPic.jpg";
 
 const Intro = () => {
   return (
@@ -21,16 +22,17 @@ const Intro = () => {
             <p>As a growth-oriented professional, I embrace challenges as opportunities for learning, perpetually expanding my skill set. I am dedicated to maintaining an upward trajectory on my learning curve, staying abreast of industry trends and emerging technologies.</p>
             <p>Known for my adept problem-solving skills, I approach coding with a positive mindset and a strong commitment to finding innovative solutions. I continuously seek opportunities to enhance my technical expertise, firmly believing in the power of continuous improvement.</p>
             <p>I am a passionate coder who not only enjoys the intricacies of development but is also dedicated to delivering optimistic solutions. Open to collaborative projects and always excited about the next challenge that allows me to contribute my skills and expertise.</p>
-            <a href={`mailto:rajupraaa1234@gmail.com`}>
+          </div>
+          { isMobile ? <img src={newPic} alt="Profile"   width={'10%'} height={'10%'} /> : null }
+          <div class="user-image">
+            <div className="introImage"><img src={newPic} alt="Profile" className="bgImg" width={'40%'} height={'40%'} /></div>
+          </div>
+          <a href={`mailto:rajupraaa1234@gmail.com`}>
               <button class="btn">
                 <img src={btnImage} alt="Hire Me" class="btnImg" />
                 Hire Me
               </button>
             </a>
-          </div>
-          <div class="user-image">
-            <div className="introImage"><img src={newPic} alt="Profile" className="bgImg" width={'40%'} height={'60%'} /></div>
-          </div>
         </div>
       </div>
     </section>

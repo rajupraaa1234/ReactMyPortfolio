@@ -12,7 +12,7 @@
   z-index: -1;
   top: -1rem;
   right: 0;
-  object-fit: cover;
+  object-fit: scale-down;
   height: 85vh;
 }
 
