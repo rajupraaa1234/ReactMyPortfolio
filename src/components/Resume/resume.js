@@ -33,7 +33,7 @@ const Resume = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (password) {
-      if(PASSWORD == password){
+      if(PASSWORD === password){
         setVisible(true)
         onCancel(true)
       }else{
