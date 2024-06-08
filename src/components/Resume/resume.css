@@ -23,3 +23,37 @@
     background-color: #0056b3; /* Hover background color */
 }
   
+
+.btn-group button {
+    background-color: #007bff; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    position: relative;
+    transform: translateX(-50%);
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 45%;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
