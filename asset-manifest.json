@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactMyPortfolio/static/css/main.9794b053.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.7889fec3.js",
+    "main.css": "/ReactMyPortfolio/static/css/main.503dcc82.css",
+    "main.js": "/ReactMyPortfolio/static/js/main.b1c8689b.js",
     "static/media/newPic.jpg": "/ReactMyPortfolio/static/media/newPic.416ce884f382eac8fa3e.jpg",
     "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.4ef30e911fc896353a15.pdf",
     "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
@@ -14,11 +14,11 @@
     "static/media/leetcode-logo.png": "/ReactMyPortfolio/static/media/leetcode-logo.ee065bea9e6384d0a8bb.png",
     "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
     "index.html": "/ReactMyPortfolio/index.html",
-    "main.9794b053.css.map": "/ReactMyPortfolio/static/css/main.9794b053.css.map",
-    "main.7889fec3.js.map": "/ReactMyPortfolio/static/js/main.7889fec3.js.map"
+    "main.503dcc82.css.map": "/ReactMyPortfolio/static/css/main.503dcc82.css.map",
+    "main.b1c8689b.js.map": "/ReactMyPortfolio/static/js/main.b1c8689b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9794b053.css",
-    "static/js/main.7889fec3.js"
+    "static/css/main.503dcc82.css",
+    "static/js/main.b1c8689b.js"
   ]
 }
