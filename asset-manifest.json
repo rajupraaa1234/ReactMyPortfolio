@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/ReactMyPortfolio/static/css/main.503dcc82.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.b1c8689b.js",
-    "static/media/newPic.jpg": "/ReactMyPortfolio/static/media/newPic.416ce884f382eac8fa3e.jpg",
+    "main.js": "/ReactMyPortfolio/static/js/main.71907cb3.js",
     "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.4ef30e911fc896353a15.pdf",
+    "static/media/newPic.jpeg": "/ReactMyPortfolio/static/media/newPic.880b989619619f68956f.jpeg",
     "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
     "static/media/react.png": "/ReactMyPortfolio/static/media/react.35639ed930462bfcd544.png",
     "static/media/java.png": "/ReactMyPortfolio/static/media/java.aaaa73f637215f4d6333.png",
@@ -15,10 +15,10 @@
     "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
     "index.html": "/ReactMyPortfolio/index.html",
     "main.503dcc82.css.map": "/ReactMyPortfolio/static/css/main.503dcc82.css.map",
-    "main.b1c8689b.js.map": "/ReactMyPortfolio/static/js/main.b1c8689b.js.map"
+    "main.71907cb3.js.map": "/ReactMyPortfolio/static/js/main.71907cb3.js.map"
   },
   "entrypoints": [
     "static/css/main.503dcc82.css",
-    "static/js/main.b1c8689b.js"
+    "static/js/main.71907cb3.js"
   ]
 }
