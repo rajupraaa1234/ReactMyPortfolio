@@ -1,13 +1,10 @@
 {
   "files": {
     "main.css": "/ReactMyPortfolio/static/css/main.38e825ef.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.f8ebd427.js",
+    "main.js": "/ReactMyPortfolio/static/js/main.0a72b432.js",
     "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.4ef30e911fc896353a15.pdf",
     "static/media/newPic.jpeg": "/ReactMyPortfolio/static/media/newPic.880b989619619f68956f.jpeg",
     "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
-    "static/media/react.png": "/ReactMyPortfolio/static/media/react.35639ed930462bfcd544.png",
-    "static/media/java.png": "/ReactMyPortfolio/static/media/java.aaaa73f637215f4d6333.png",
-    "static/media/other.png": "/ReactMyPortfolio/static/media/other.9037c951ec79db4e97c3.png",
     "static/media/hackerrank-logo.png": "/ReactMyPortfolio/static/media/hackerrank-logo.c5bede0098e3bf3a222e.png",
     "static/media/interviewbit.png": "/ReactMyPortfolio/static/media/interviewbit.12a6f8a62644ed49f60e.png",
     "static/media/moneytap-logo.png": "/ReactMyPortfolio/static/media/moneytap-logo.f8eabdafb23d9278ac1b.png",
@@ -15,10 +12,10 @@
     "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
     "index.html": "/ReactMyPortfolio/index.html",
     "main.38e825ef.css.map": "/ReactMyPortfolio/static/css/main.38e825ef.css.map",
-    "main.f8ebd427.js.map": "/ReactMyPortfolio/static/js/main.f8ebd427.js.map"
+    "main.0a72b432.js.map": "/ReactMyPortfolio/static/js/main.0a72b432.js.map"
   },
   "entrypoints": [
     "static/css/main.38e825ef.css",
-    "static/js/main.f8ebd427.js"
+    "static/js/main.0a72b432.js"
   ]
 }
