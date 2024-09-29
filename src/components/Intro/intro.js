@@ -3,6 +3,8 @@ import { isMobile } from 'react-device-detect';
 import "./intro.css";
 import btnImage from "../../assets/hireme.png";
 import newPic from "../../assets/newPic.jpeg";
+import { getTimeDurationForExperience } from "../../utils/utils";
+import { STARTING_DATA } from "../../utils/constants";
 
 const Intro = () => {
   return (
@@ -17,7 +19,7 @@ const Intro = () => {
               Software Engineer
             </span>
             <br /><br />
-            <p>Enthusiastic and results-driven mobile developer with 3 years of hands-on experience in Android, React Native, and Flutter.I specialize in crafting responsive mobile applications and take pride in producing code that is both robust and easily comprehensible.</p>
+            <p>Enthusiastic and results-driven mobile developer with {getTimeDurationForExperience(new Date(STARTING_DATA),new Date(new Date()))} years of hands-on experience in Android, React Native, and Flutter.I specialize in crafting responsive mobile applications and take pride in producing code that is both robust and easily comprehensible.</p>
             <p>My passion for coding and problem-solving is evident in my commitment to delivering optimal solutions. I thrive on taking ownership and responsibility for projects, consistently ensuring that the end results meet and exceed expectations.</p>
             <p>As a growth-oriented professional, I embrace challenges as opportunities for learning, perpetually expanding my skill set. I am dedicated to maintaining an upward trajectory on my learning curve, staying abreast of industry trends and emerging technologies.</p>
             <p>Known for my adept problem-solving skills, I approach coding with a positive mindset and a strong commitment to finding innovative solutions. I continuously seek opportunities to enhance my technical expertise, firmly believing in the power of continuous improvement.</p>

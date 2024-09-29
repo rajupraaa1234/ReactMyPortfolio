@@ -1,8 +1,7 @@
 import React from "react";
 import "./skills.css";
-import javaIcon from "../../assets/java.png";
-import reactIcon from "../../assets/react.png";
-import otherIcon from "../../assets/other.png";
+import { STARTING_DATA } from "../../utils/constants";
+import { getTimeDurationForExperience } from "../../utils/utils";
 
 const Skills = () => {
   return (
@@ -10,7 +9,7 @@ const Skills = () => {
       <span className="skillTitle">Skills</span>
       <span className="skillDesc">
 
-        <p>With 3 YoE in mobile development, I specialize in crafting responsive <span className="introName"> Mobile Applications</span> and producing code that is easily comprehensible to fellow developers and stakeholders alike.</p>
+        <p>With {getTimeDurationForExperience(new Date(STARTING_DATA),new Date())} YoE in mobile development, I specialize in crafting responsive <span className="introName"> Mobile Applications</span> and producing code that is easily comprehensible to fellow developers and stakeholders alike.</p>
       </span>
       <div class="container mt-5">
 
