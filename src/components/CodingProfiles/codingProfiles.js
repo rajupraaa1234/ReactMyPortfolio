@@ -5,13 +5,15 @@ import leetcode from "../../assets/leetcode-logo.png";
 import gfg from "../../assets/gfg-logo.png";
 import hackerrank from "../../assets/hackerrank-logo.png";
 import interviewbit from "../../assets/interviewbit.png"
+import ninjas from "../../assets/ninjas.png"
 const CodingProfiles = () => {
 
   const platformImages = {
     leetcode,
     gfg,
     hackerrank,
-    interviewbit
+    interviewbit,
+    ninjas
   };
 
   return (

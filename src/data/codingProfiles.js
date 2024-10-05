@@ -31,4 +31,12 @@ export const codingProfilesData = [
         achievement_description:
             "Solved more than 300 coding problems",
     },
+    {
+        id: 1,
+        platform_name: "Coding Ninjas",
+        profile_link: "https://www.naukri.com/code360/profile/rajupraaa",
+        platform_image: "ninjas",
+        achievement_description:
+            "Solved more than 500 coding problems",
+    }
 ];
