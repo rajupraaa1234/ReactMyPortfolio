@@ -68,7 +68,7 @@ export const achievements = [
     achievement_name: "Award",
     platform: `Work Appreciation (LLoyds Technology Center'24)`,
     certificate: true,
-    link: "https://drive.google.com/file/d/10Ey2TjEx7I0F15ys9XgiittPh-nGDdho/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/16u0VffaVn6X6kQ_xcG1B41BkOo-kV-ZI/view?usp=sharing",
     achievement_description: <p>
       In appreciation of their exemplary behaviour and positive attitude aligned with the values and culture of Lloyds Technology Centre.
     </p>
