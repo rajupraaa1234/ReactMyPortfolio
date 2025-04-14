@@ -54,5 +54,10 @@ export const learningData = [
         link : "https://docs.google.com/document/d/1Thbcx61YsidMdghMyUG00DWcRgEfma7dkNR2hdmpjDE/edit",
         contentName: "Unit Testing In Android",
     },
+    {
+        id:12,
+        link : "https://docs.google.com/document/d/1zs3nM0-6IPfIEQblpEq5Y1ft6C7uMqDd1OpReg1y4e0/edit?usp=sharing",
+        contentName: "Solid Principle In Android",
+    },
   ];
   

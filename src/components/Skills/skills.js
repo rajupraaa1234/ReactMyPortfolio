@@ -126,10 +126,25 @@ const Skills = () => {
                 <p>Kotlin</p>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Solid Principle</p>
+              </div>
+            </div>
           </div>
         </div>
 
-
+        <div class="skillCard">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Android Architecture</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
