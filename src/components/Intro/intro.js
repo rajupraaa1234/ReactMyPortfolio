@@ -2,7 +2,7 @@ import React from "react";
 import { isMobile } from 'react-device-detect';
 import "./intro.css";
 import btnImage from "../../assets/hireme.png";
-import newPic from "../../assets/newPic.jpeg";
+import newPic from "../../assets/newPic.jpg";
 import { getTimeDurationForExperience } from "../../utils/utils";
 import { STARTING_DATA } from "../../utils/constants";
 
