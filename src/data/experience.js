@@ -4,7 +4,7 @@ export const experienceData = {
       id: 1,
       company: "Lloyds Technology Centre",
       companyLogo: "LLoyds",
-      jobTitle: "Software Engineer",
+      jobTitle: "Software Engineer II",
       skills:
         "I am actively contributing to the development of banking applications, leveraging my expertise in Android development, JetPack Compose, Kotlin, Coroutines, various Android architectures, unit testing (utilizing Mockk and JUnit), and Dependency Injection. By harnessing these skills, I deliver robust and efficient solutions tailored to the specific needs of banking applications.",
       date: "Nov 2023 - Present",
