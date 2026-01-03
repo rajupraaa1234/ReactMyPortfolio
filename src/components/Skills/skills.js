@@ -143,6 +143,13 @@ const Skills = () => {
                 <p>Android Architecture</p>
               </div>
             </div>
+
+            <div class="col-md-4">
+              <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>Mobile System Design</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
