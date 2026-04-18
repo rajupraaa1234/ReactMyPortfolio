@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactMyPortfolio/static/css/main.38e825ef.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.0eb951e5.js",
+    "main.css": "/ReactMyPortfolio/static/css/main.0458e52e.css",
+    "main.js": "/ReactMyPortfolio/static/js/main.367ee673.js",
+    "static/media/astrologer.png": "/ReactMyPortfolio/static/media/astrologer.4510be96a1adbe0d5013.png",
+    "static/media/bank.jpg": "/ReactMyPortfolio/static/media/bank.165b427970bb22fcb1e1.jpg",
+    "static/media/Edutech_img-scaled.jpg": "/ReactMyPortfolio/static/media/Edutech_img-scaled.be58265f824477aa2dba.jpg",
     "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.19cd905b4f37a74ed0cf.pdf",
     "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
     "static/media/newPic.jpeg": "/ReactMyPortfolio/static/media/newPic.b79d7ddb695ed84cb157.jpeg",
+    "static/media/finanace.jpg": "/ReactMyPortfolio/static/media/finanace.4651ad480e7cf797b13f.jpg",
     "static/media/hackerrank-logo.png": "/ReactMyPortfolio/static/media/hackerrank-logo.c5bede0098e3bf3a222e.png",
     "static/media/interviewbit.png": "/ReactMyPortfolio/static/media/interviewbit.12a6f8a62644ed49f60e.png",
     "static/media/moneytap-logo.png": "/ReactMyPortfolio/static/media/moneytap-logo.f8eabdafb23d9278ac1b.png",
     "static/media/leetcode-logo.png": "/ReactMyPortfolio/static/media/leetcode-logo.ee065bea9e6384d0a8bb.png",
     "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
     "index.html": "/ReactMyPortfolio/index.html",
-    "main.38e825ef.css.map": "/ReactMyPortfolio/static/css/main.38e825ef.css.map",
-    "main.0eb951e5.js.map": "/ReactMyPortfolio/static/js/main.0eb951e5.js.map"
+    "main.0458e52e.css.map": "/ReactMyPortfolio/static/css/main.0458e52e.css.map",
+    "main.367ee673.js.map": "/ReactMyPortfolio/static/js/main.367ee673.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e825ef.css",
-    "static/js/main.0eb951e5.js"
+    "static/css/main.0458e52e.css",
+    "static/js/main.367ee673.js"
   ]
 }
