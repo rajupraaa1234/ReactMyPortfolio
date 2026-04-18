@@ -1,65 +1,90 @@
-#coding-profiles {
-  align-items: center;
-  justify-content: center;
+#codingProfile {
   padding: 0 1rem;
+  margin-top: 40px;
 }
 
+/* Title */
 .coding-profiles-text {
   text-align: center;
   font-size: 3rem;
+  color: white;
 }
 
-.coding-profiles-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-}
-
-.coding-profiles {
-  background: rgb(149, 155, 164);
-  position: relative;
-  width: 280px;
-  border-radius: 10px !important;
-  padding: 10px 10px;
-  display: flex;
-  height: 240px;
-  overflow: hidden;
-  align-items: center;
-  flex-direction: column;
-  cursor: pointer;
+/* Instruction text */
+.instructionStyle {
   text-align: center;
-  transition: all 0.5s ease;
-  margin: 5px;
+  margin-top: 15px;
+  color: #d1d5db;
+  font-size: 14px;
 }
 
+/* GRID layout like achievements */
+.coding-profiles-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 cards on web */
+  gap: 20px;
+  padding: 2rem 5%;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .coding-profiles-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .coding-profiles-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Card */
+.coding-profiles {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08); /* glass effect */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 15px;
+  min-height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+/* Hover effect */
 .coding-profiles:hover {
-  transform: scale(1.06);
-  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 20%) !important;
-  /* transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s; */
-  background: rgb(75, 159, 66);
-  transition: 2s;
+  transform: scale(1.05);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(99, 102, 241, 0.2); /* indigo tint */
 }
 
+/* Image */
+.coding-profiles img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Title */
 .coding-profiles-name {
   margin: 10px 0;
-  font-size: 20px;
-  color: #fff;
+  font-size: 18px;
+  color: #ffffff;
   font-weight: bold;
 }
 
+/* Description */
 .coding-profiles-desc {
   font-size: 13px;
-  color: #080a0a;
-  font-weight: 600;
-}
-
-.instructionStyle {
-   justify-content: center;
-   width: 100%;
-   align-items: center;
-   text-align: center;
-   margin-top: 20px;
-
+  color: #e5e7eb; /* light gray for readability */
+  font-weight: 500;
 }
