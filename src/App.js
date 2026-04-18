@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/navbar";
 import Skills from "./components/Skills/skills";
 import Resume from "./components/Resume/resume";
 import Education from "./components/Education/education";
+import {ShowcaseCarousel} from "./components/Project/carousel"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Intro />
       <Skills />
       <Experience />
+      <ShowcaseCarousel/>
       <Education/>
       <CodingProfiles />
       <Achievements />
