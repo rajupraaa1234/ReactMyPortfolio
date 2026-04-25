@@ -78,7 +78,7 @@ export const achievements = [
     achievement_name: "Engineering Excellence Award",
     platform: `LLoyds Technology Center'26`,
     certificate: true,
-    link: "https://drive.google.com/file/d/1YWxYN29DZ4MmVwBaywOiKo2By5f-e6Bl/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1kZ1bri_Ik1QajqvIOywRrEbbQPQyUNNY/view?usp=sharing",
     achievement_description: <p>
       Recognized with the Engineering Excellence Award (Q1) for proactive support, ownership, and resolving critical Android production issues.
     </p>
