@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/ReactMyPortfolio/static/css/main.79641250.css",
-    "main.js": "/ReactMyPortfolio/static/js/main.b0bfae63.js",
+    "main.js": "/ReactMyPortfolio/static/js/main.5e54e7b3.js",
     "static/media/astrologer.png": "/ReactMyPortfolio/static/media/astrologer.4510be96a1adbe0d5013.png",
     "static/media/bank.jpg": "/ReactMyPortfolio/static/media/bank.165b427970bb22fcb1e1.jpg",
     "static/media/Edutech_img-scaled.jpg": "/ReactMyPortfolio/static/media/Edutech_img-scaled.be58265f824477aa2dba.jpg",
-    "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.19cd905b4f37a74ed0cf.pdf",
+    "static/media/rajuResume.pdf": "/ReactMyPortfolio/static/media/rajuResume.2f3c2adc1bb5b3d6fbe0.pdf",
     "static/media/LLoyds.jpeg": "/ReactMyPortfolio/static/media/LLoyds.b42c321b7d43d6eebe5d.jpeg",
     "static/media/newPic.jpeg": "/ReactMyPortfolio/static/media/newPic.b79d7ddb695ed84cb157.jpeg",
     "static/media/finanace.jpg": "/ReactMyPortfolio/static/media/finanace.4651ad480e7cf797b13f.jpg",
@@ -16,10 +16,10 @@
     "static/media/appventurez-logo.svg": "/ReactMyPortfolio/static/media/appventurez-logo.4144386386e9daebb16187fed09c2a71.svg",
     "index.html": "/ReactMyPortfolio/index.html",
     "main.79641250.css.map": "/ReactMyPortfolio/static/css/main.79641250.css.map",
-    "main.b0bfae63.js.map": "/ReactMyPortfolio/static/js/main.b0bfae63.js.map"
+    "main.5e54e7b3.js.map": "/ReactMyPortfolio/static/js/main.5e54e7b3.js.map"
   },
   "entrypoints": [
     "static/css/main.79641250.css",
-    "static/js/main.b0bfae63.js"
+    "static/js/main.5e54e7b3.js"
   ]
 }
