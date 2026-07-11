@@ -59,5 +59,10 @@ export const learningData = [
         link : "https://docs.google.com/document/d/1zs3nM0-6IPfIEQblpEq5Y1ft6C7uMqDd1OpReg1y4e0/edit?usp=sharing",
         contentName: "Solid Principle In Android",
     },
+    {
+        id:13,
+        link: "https://docs.google.com/document/d/1Ay4NfmU2mRDKXTuF1VvT3gcers1GSjpqpJq8AtwB3fU/edit?usp=sharing",
+        contentName: "Build Flavor",
+    }
   ];
   
